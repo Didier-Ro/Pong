@@ -135,8 +135,8 @@ GameObject:
   - component: {fileID: 36605312}
   - component: {fileID: 36605311}
   - component: {fileID: 36605310}
-  - component: {fileID: 36605309}
   - component: {fileID: 36605314}
+  - component: {fileID: 36605309}
   m_Layer: 0
   m_Name: Player Paddle
   m_TagString: Untagged
@@ -153,7 +153,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 36605308}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 68df723238a84ae4e9537b360f834b95, type: 3}
+  m_Script: {fileID: 11500000, guid: e079168ca30843e40ae44c4b4e389b27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _speed: 10
@@ -1900,8 +1900,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3b67dcbe850e7f48822c3c72cad81d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 10
-  _rigidBody2DBall: {fileID: 657928088}
+  ball: {fileID: 657928088}
+  speed: 10
 --- !u!114 &1454431688
 MonoBehaviour:
   m_ObjectHideFlags: 0
